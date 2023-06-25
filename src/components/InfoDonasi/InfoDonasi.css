@@ -1,0 +1,158 @@
+.wrapper2 {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.bg {
+  background-image: url(./bg-info.jpg);
+  background-size: cover;
+  margin-right: 24px;
+  margin-left: 24px;
+  height: 710px;
+  display: flex;
+  height: auto;
+}
+
+.bg img {
+  width: 600px;
+  height: 623px;
+  padding-left: 86px;
+  padding-top: 54px;
+  position: relative;
+}
+.bg .info {
+  position: absolute;
+  right: 620px;
+  top: 960px;
+  background-color: #285c9d;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  width: 260px;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+}
+
+.donasi {
+  margin-left: 105px;
+  margin-right: 76px;
+  width: 480px;
+  height: auto;
+  padding-top: 110px;
+}
+
+.donasi .p {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.donasi .judul {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.donasi .judul2 {
+  margin-top: 75px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.iconsInfo {
+  padding: 0;
+  margin-left: 20px;
+  width: 36px;
+  height: 36px;
+}
+
+@media screen and (max-width: 1220px) {
+  .info {
+    display: none;
+  }
+  .judul {
+    display: flex;
+    flex-direction: column;
+  }
+  .bg {
+    height: auto;
+  }
+  .donasi {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .iconsInfo {
+    padding: 0;
+    margin-left: 20px;
+    width: 24px;
+    height: 24px;
+  }
+  .donasi .dkr {
+    font-size: 14px;
+  }
+  .bg {
+    height: auto;
+  }
+  .donasi .judul2 {
+    font-size: 20px;
+  }
+}
+.donasi .p {
+  font-size: 14px;
+  margin-top: 0;
+}
+.donasi .judul2 {
+  margin-top: 0;
+}
+.donasi .judul {
+  font-size: 20px;
+}
+@media screen and (max-width: 992px) {
+  .bg img {
+    width: 450px;
+    height: 373px;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .donasi {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .iconsInfo {
+    padding: 0;
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .donasi .dkr {
+    font-size: 8px;
+  }
+  .bg {
+    height: auto;
+  }
+  .donasi .judul2 {
+    font-size: 16px;
+  }
+  .donasi .p {
+    font-size: 12px;
+    margin-top: 0;
+  }
+  .donasi .judul2 {
+    margin-top: 0;
+  }
+  .bg img {
+    width: 300px;
+    height: 323px;
+  }
+  .donasi .judul {
+    font-size: 16px;
+  }
+}

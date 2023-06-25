@@ -1,0 +1,107 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 0px;
+  font-family: "Poppins",sans-serif;
+}
+
+.navbar-top {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.navbar-logo img {
+  width: 120px;
+  height: 120px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  margin-right: 20px;
+  color: #003a8c;
+  font-weight: bold;
+}
+
+.navbar-search {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+.search-input {
+  width: 200px;
+  /* tambahkan gaya lain sesuai kebutuhan */
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.search-button {
+  background-color: #003a8c;
+  color: #fff;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.navbar-items {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-item {
+  margin-right: 10px;
+}
+
+.navbar-profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+
+/* CSS untuk dropdown menu */
+.navbar-item .dropdown-menu {
+  background-color: #ffffff; /* Warna latar belakang */
+  border: none; /* Hapus border */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+  padding: 10px; /* Ruang dalam */
+  display: block; /* Menampilkan menu secara vertikal */
+}
+
+/* CSS untuk item dropdown */
+.dropdown-menu .dropdown-item {
+  color: #333333; /* Warna teks */
+  padding: 8px 20px; /* Ruang dalam */
+  transition: background-color 0.3s ease; /* Transisi saat hover */
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #f2f2f2; /* Warna latar belakang saat hover */
+}
+
+/* CSS untuk judul dropdown */
+.dropdown-menu .dropdown-header {
+  color: #777777; /* Warna teks judul */
+  font-weight: bold; /* Ketebalan teks judul */
+  padding: 8px 20px; /* Ruang dalam */
+}
+
+/* CSS untuk membuat dropdown vertikal */
+.dropdown-menu .dropdown-submenu .dropdown-menu {
+  left: 100%; /* Muncul di sebelah kanan induk menu */
+  top: 0; /* Menu dropdown tampil di atas */
+}

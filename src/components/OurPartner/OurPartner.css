@@ -1,0 +1,37 @@
+.container {
+  width: 780px;
+  height: auto;
+}
+
+.p {
+  font-weight: 600;
+  font-size: 32px;
+  margin-top: 93px;
+}
+
+.gambarPartner {
+  width: 280px;
+}
+
+.gambarPartner2{
+    width: 160px;
+}
+.gambarPartner3{
+    width: 120px;
+}
+.gambarPartner4{
+    width: 160px;
+}
+.gambarPartner5{
+    width: 160px;
+}
+.gambarPartner6{
+    width: 120px;
+}
+.gambarPartner7{
+    width: 160px;
+}
+
+.gambarPartner8{
+    width: 160px;
+}

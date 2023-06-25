@@ -1,0 +1,154 @@
+.beasiswa-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.beasiswa-item {
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #b5b5b5;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.beasiswa-item .logo-title-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.beasiswa-item .logo-wrapper {
+  margin-right: 10px;
+}
+
+.beasiswa-item .logo-wrapper img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.beasiswa-item .title-wrapper {
+  flex-grow: 1;
+}
+
+.beasiswa-item .beasiswa-title {
+  font-size: 14px;
+  margin-bottom: 3px; /* Ubah jarak ke bawah sesuai kebutuhan */
+}
+
+.beasiswa-item .beasiswa-detail {
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.beasiswa-item p.beasiswa-mitra {
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+.beasiswa-item p {
+  font-size: 14px;
+  color: #555;
+}
+
+.beasiswa-item .deadline {
+  color: #e74c3c;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.beasiswa-item .btn-apply {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.beasiswa-item .btn-apply:hover {
+  background-color: #2980b9;
+}
+
+
+.view-detail-button {
+  background-color: #003a8c;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.view-detail-button:hover {
+  background-color: #002663;
+}
+
+.my-card-detail p,
+.my-card-detail h3 {
+  color: #fff;
+}
+
+.beasiswa-item .logo-title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.detail-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rectangle {
+  background-color: #0159A1;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center; 
+  font-family: "Poppins", sans-serif;
+}
+
+.rectangle h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.rectangle p {
+  font-size: 16px;
+  color: #fff;
+}
+
+.beasiswa-item .logo-title-wrapper .title-wrapper {
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.beasiswa-item .logo-title-wrapper .title-wrapper p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.beasiswa-item .btn-open {
+  margin-top: 10px;
+  margin-left: 110px;
+  background-color: #237804;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+

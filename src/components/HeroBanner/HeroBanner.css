@@ -1,0 +1,72 @@
+.wrapper {
+  max-width: 100%;
+}
+
+.hero-banner {
+  background-image: url("../HeroBanner/HappyChildren.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 504px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+
+.hero-banner p {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  filter: brightness(100%) !important;
+  flex-direction: column;
+}
+
+.WT {
+  width: 600px;
+  margin-left: 183px;
+}
+
+.WB {
+  background-color: blueviolet;
+}
+.WT a {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #0159a1;
+  border-radius: 20px;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  margin-top: 48px;
+  margin-left: 200px;
+  text-decoration: none;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 786px) {
+  .WT {
+    display: flex;
+    flex-direction: column;
+  }
+  .WT p {
+    font-size: 20px;
+  }
+  .WT a {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #0159a1;
+    border-radius: 10px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 48px;
+    margin-left: 200px;
+    text-decoration: none;
+    flex-direction: column;
+  }
+}

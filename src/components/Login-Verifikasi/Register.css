@@ -1,0 +1,73 @@
+.register {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 19px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+  }
+  
+  .register h2 {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .register form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .register label {
+    font-weight: normal;
+    margin-bottom: 5px;
+  }
+  
+  .register input[type="email"],
+  .register input[type="password"] {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .register button {
+    padding: 10px;
+    background-color: #0159A1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .register p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .register p a {
+    color: #0159A1;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    .register {
+      max-width: 100%;
+    }
+  }
+  
+  .register,
+  .register h2,
+  .register label,
+  .register input,
+  .register button,
+  .register p,
+  .register p a {
+    font-family: 'Poppins', sans-serif;
+  }
+  

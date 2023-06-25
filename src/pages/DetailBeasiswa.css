@@ -1,0 +1,256 @@
+/* DetailBeasiswa.css */
+
+
+.rectangle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10px;
+    margin: 20px;
+      
+  }
+
+
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .line {
+    width: 100%;
+    border: none;
+    border-top: 2px solid rgb(247, 247, 247);
+    margin-bottom: 10px;
+  }
+  
+  .info-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .info-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .info-icon {
+    margin-right: 0px;
+  }
+  
+  .info-text {
+    margin-bottom: 5px;
+  }
+  
+  
+  
+
+  /* partners */
+  .partners {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .partners img {
+    height: 120px; /* Mengatur tinggi gambar */
+    margin-left: 20px;
+}
+  
+  
+  .logo-wrapper {
+    margin-right: 20px;
+  }
+  
+  .partner-label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .partner-text {
+    font-size: 16px;
+  }
+  
+  .description-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+  
+  .description-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  
+  .requirements-list {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .download-link {
+    margin-left: 20px;
+  }
+
+  
+
+/* BOX */
+
+
+
+.registration-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #F5F5F5;
+    border: 1px solid #F5F5F5;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+  }
+  
+
+  .registration-box .register-button {
+    background-color: #003a8c;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+
+  }
+
+  .registration-box .info-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registration-box .info-wrapper .info-label {
+    font-weight: bold;
+  }
+  
+  .registration-box .info-wrapper .info-icon {
+    margin-right: 5px;
+  }
+  
+  .registration-box .info-wrapper .info-text {
+    margin-bottom: 5px;
+  }
+  
+  .registration-box .method,
+  .registration-box .selection-flow,
+  .registration-box .participant-quota,
+  .registration-box .substance-test-time,
+  .registration-box .syllabus,
+  .registration-box .share {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .info-icon {
+    margin-right: 10px;
+  }
+  .registration-box .method .info-icon,
+  .registration-box .selection-flow .info-icon,
+  .registration-box .participant-quota .info-icon,
+  .registration-box .substance-test-time .info-icon,
+  .registration-box .syllabus .info-icon,
+  .registration-box .share .info-icon {
+    margin-right: 5px;
+  }
+  
+  .registration-box .method .info-text,
+  .registration-box .selection-flow .info-text,
+  .registration-box .participant-quota .info-text,
+  .registration-box .substance-test-time .info-text,
+  .registration-box .syllabus .info-text,
+  .registration-box .share .info-text {
+    flex-grow: 1;
+  }
+  
+  .registration-box .syllabus .download-button {
+    margin-left: 10px;
+  }
+  
+  .registration-box .share {
+    grid-column: 1 / span 2;
+    text-align: center;
+  }
+  
+
+  
+
+/* 
+.registration-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 50%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+
+  .register-button {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+
+  .register-button {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .info-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+ 
+  
+  .info-text {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .info-description {
+    margin: 0;
+  }
+  
+  .download-button {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: auto;
+    cursor: pointer;
+  }
+  
+ */

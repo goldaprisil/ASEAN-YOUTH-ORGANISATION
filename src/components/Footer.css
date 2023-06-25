@@ -1,0 +1,50 @@
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E6F7FF;
+    padding: 20px;
+    font-family: "Poppins",sans-serif;
+  }
+  
+  .footer-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-left img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .footer-left p {
+    font-size: 12px;
+    color: #0159A1;
+  }
+  
+  .footer-middle {
+    font-size: 12px;
+    color: #0159A1;
+  }
+  
+  .footer-middle p {
+    margin: 0;
+  }
+  
+  .footer-right button {
+    background-color: #003a8c;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .footer-right button:hover {
+    background-color: #002663;
+  }
+  
+  /* ... CSS lainnya ... */
+  

@@ -1,0 +1,97 @@
+.verifikasi-list {
+    /* max-width: 350px; */
+    margin: 0 auto;
+    padding: 19px; /* Ubah nilai padding di sini */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: grid;
+    gap: 16px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+  }
+  
+  .verifikasi-list h2 {
+    text-align: center;
+    background-color: #0159A1;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .verifikasi-list form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .verifikasi-list div {
+    margin-bottom: 10px;
+  }
+  
+  .verifikasi-list label {
+    font-weight: bold;
+  }
+  
+  .verifikasi-list input[type="text"],
+  .verifikasi-list select {
+    padding: 5px;
+  }
+  
+  .verifikasi-list button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .verifikasi-list button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .grid-container {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .grid-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (max-width: 768px) {
+    .verifikasi-list {
+      max-width: 100%;
+    }
+}
+
+.verifikasi-list,
+.verifikasi-list h2,
+.verifikasi-list label,
+.verifikasi-list input,
+.verifikasi-list button {
+  font-family: 'Poppins', sans-serif;
+}
+
+.button-wrapper {
+    
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  
+  .next-button-container {
+    margin-top: 10px;
+  }
+  
+  .verifikasi-list .button-wrapper button {
+    background-color: #0159A1;
+  }
+  
+  .form {
+    font-family: "Poppins", sans-serif;
+  }

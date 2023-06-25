@@ -1,0 +1,80 @@
+.login {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 19px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: grid;
+    gap: 16px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+  }
+  
+  .login h2 {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .login form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
+  
+  .login div {
+    margin-bottom: 10px;
+  }
+  
+  .login label {
+    font-weight: normal;
+  }
+  
+  .login input[type="email"],
+  .login input[type="password"] {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .login button {
+    padding: 10px;
+    background-color: #0159A1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .login button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .login p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .login p a {
+    color: #0159A1;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    .login {
+      max-width: 100%;
+    }
+  }
+  
+  .login,
+  .login h2,
+  .login label,
+  .login input,
+  .login button,
+  .login p,
+  .login p a {
+    font-family: 'Poppins', sans-serif;
+  }
+  
